@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    gap: 10px;
+    align-items: center;
+}
+.navbar__s1__title{
+    color: #a435f0;
+}
+.navbar__s2{
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 70%;
+    display:flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+.navbar__s2 input{
+    border: none;
+    width: 100%;
+    font-size: 16px;
+}
+.navbar__s2 input:focus{
+    outline: none;
+}
+.navbar__s3{
+    display:flex;
+    gap: 10px;
+    align-items: center;
+}
+.categories{
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: black solid 1px;
+}
+.categories p{
+    background-color: #a435f0;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+.sale-image img{
+    width: 100%;
+}
+.recommended{
+    padding: 10px;
+}
+.recommended__container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.course-card{
+    width: 300px;
+}
+.course-card img{
+    width: 100%;
+}
+.topics{
+    padding: 10px;
+}
+.topic__container{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.topic__container p{
+    border: solid grey 2px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+.popular{
+    padding: 10px;
+}
+.popular__container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+
+.section-one__icon {
+    width: 30px; 
+    height: 30px; 
+    margin-left: 15px; 
+    transition: transform 0.2s; 
+}
+
+.section-one__icon:hover {
+    transform: scale(1.1); 
+}
+.Footer-Section {
+    display: flex;
+    background-color: #111116;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.Footer-Section__title {
+    font-weight: bold;
+    position: relative;
+    bottom: 40px;
+}
+
+.Footer-Section__one a {
+    position: relative;
+    bottom: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+.Footer {
+    margin: 80px;
+}
+
+.Footer-Section__line {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px gray;
+    position: relative;
+    bottom: 100px;
+}
+
+.Footer-Section__image {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 50px;
+    right: 900px;
+}
+
+.Footer-Section__co {
+    position: relative;
+    top: 110px;
+    right: 250px;
+}
+.Footer-Section__one {
+    margin-top: 10px;
+    gap: 20px;
+}
+.eng-place {
+    position: absolute;
+  right : 50px;
+}
